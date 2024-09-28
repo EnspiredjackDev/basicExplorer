@@ -219,13 +219,6 @@ This project is open-source and available under the MIT License.
 
 - **RPC Security**: Be cautious with RPC settings. Do not expose RPC ports to untrusted networks.
 - **Credentials**: Keep your RPC username and password secure.
-- **SSL/TLS**: For production use, secure the web application with SSL/TLS certificates.
-
-## Customization
-
-- **Coin Parameters**: Adjust coin-specific parameters like decimal places, currency symbol, or additional metadata.
-- **UI/UX Enhancements**: Modify the HTML templates and CSS styles to enhance the user interface.
-- **Additional Features**: Implement features like address QR codes, richer analytics, or API endpoints.
 
 ## Troubleshooting
 
@@ -235,8 +228,6 @@ This project is open-source and available under the MIT License.
 
 ## Acknowledgments
 
-This explorer is inspired by blockchain explorers like Blockchain.info and Blockchair, aiming to provide an accessible way to explore blockchain data for any Bitcoin fork.
+This explorer is inspired by blockchain explorers like Blockchain.info and Blockchair, aiming to provide an accessible way to explore blockchain data for any Bitcoin fork with a special thanks to Nyan/Katkoyn for their [explorer](https://web.archive.org/web/20240526220829/https://explorer.katkoyn.com/ex.koyn) as it helped with some design.
 
----
-
-Feel free to modify and enhance this README to suit your project's specific needs. Include any additional sections that might be helpful for users and contributors.
+**This readme was made with help of ChatGPT**
