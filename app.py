@@ -546,7 +546,7 @@ transaction_html = '''
         <h3>General Information</h3>
         <div class="overview">
           <p><strong>Block Height:</strong> {{ block_height }}</p>
-          <p><strong>Block Hash:</strong> {{ tx.blockhash }}</p>
+          <p><strong>Block Hash:</strong> <a href="/block?height={{ block_height }}"> {{ tx.blockhash }}</a></p>
           <p><strong>Confirmations:</strong> {{ tx.confirmations }}</p>
           <p><strong>Time:</strong> {{ time_formatted }}</p>
           <p><strong>Size:</strong> {{ tx.size }} bytes</p>
